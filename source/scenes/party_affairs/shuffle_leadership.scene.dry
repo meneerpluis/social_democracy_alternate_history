@@ -587,16 +587,16 @@ Julius Leber is now an advisor.
 # Nonfactional advisors
 
 @add_baade
-title: Fritz Baade
-subtitle: Fritz Baade is one of the few agricultural policy experts in the SPD. {!<br><br>!}[? if difficulty < 0 : Actions - Agricultural Policy, Rural Campaigning, Addressing the Economic Crisis ?]
+title: Manuel Cordero
+subtitle: Manuel Cordero is one of the few agricultural policy experts in the PSOE. {!<br><br>!}[? if difficulty < 0 : Actions - Agricultural Policy, Rural Campaigning, Addressing the Economic Crisis ?]
 is-card: true
 card-image: img/portraits/BaadeFritz.jpg
 view-if: baade_advisor = 0 and n_advisors < 3
 on-arrival: baade_advisor = 1; n_advisors += 1
 go-to: advisor_menu
-tags: nonfactional_advisor
+tags: labor_advisor
 
-Fritz Baade is now an advisor.
+Manuel Cordero is now an advisor.
 
 
 @add_hirschfeld
