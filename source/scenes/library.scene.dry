@@ -160,78 +160,78 @@ go-to: menu
 **Projected election results** (if the election were to be held now):
 
 # 1928: 30, 1930: 25, 1932: 22
-SPD: [+ spd_votes +]%
+PSOE: [+ spd_votes +]%
 
 [? if sapd_formed: SAPD: [+ sapd_votes +]% ?]
 
 # 1928: 15, 1930: 15, 1932: 
-Z + BVP: [+ z_votes +]%
+AR: [+ z_votes +]%
 
 # 1928: 10, 1930: 13
-KPD: [+ kpd_votes +]%
+PCE: [+ kpd_votes +]%
 
 # 1928: 5, 1930: 4 (as DstP)
 [+ ddp_name +]: [+ ddp_votes +]%
 
 # 1928: 9, 1930: 5
-DVP: [+ dvp_votes +]%
+PRR: [+ dvp_votes +]%
 
 # 1928: 14, 1930: 7
-DNVP: [+ dnvp_votes +]%
+CEDA: [+ dnvp_votes +]%
 
 # 1928: 3, 1930: 18
-NSDAP: [+ nsdap_votes +]%
+RE: [+ nsdap_votes +]%
 
 # 1928: 9, 1930: 10
 Others: [+ other_votes +]%
 
 **Detailed results for each demographic**
 
-Workers: SPD: [+ workers_spd_display +]%, Z: [+ workers_z_display +]%, KPD: [+ workers_kpd_display +]%, [+ ddp_name +]: [+ workers_ddp_display +]%, DVP: [+ workers_dvp_display +]%; DNVP: [+ workers_dnvp_display +]%, NSDAP: [+ workers_nsdap_display +]%, Others: [+ workers_other_display +]% [? if sapd_formed: SAPD: [+ workers_sapd_display +]% ?]
+Workers: PSOE: [+ workers_spd_display +]%, AR: [+ workers_z_display +]%, PCE: [+ workers_kpd_display +]%, [+ ddp_name +]: [+ workers_ddp_display +]%, PRR: [+ workers_dvp_display +]%; CEDA: [+ workers_dnvp_display +]%, RE: [+ workers_nsdap_display +]%, Others: [+ workers_other_display +]% [? if sapd_formed: SAPD: [+ workers_sapd_display +]% ?]
 
-New Middle Class: SPD: [+ new_middle_spd_display +]%, Z: [+ new_middle_z_display +]%, KPD: [+ new_middle_kpd_display +]%, [+ ddp_name +]: [+ new_middle_ddp_display +]%, DVP: [+ new_middle_dvp_display +]%; DNVP: [+ new_middle_dnvp_display +]%, NSDAP: [+ new_middle_nsdap_display +]%, Others: [+ new_middle_other_display +]% [? if sapd_formed: SAPD: [+ new_middle_sapd_display +]% ?]
+New Middle Class: PSOE: [+ new_middle_spd_display +]%, AR: [+ new_middle_z_display +]%, PCE: [+ new_middle_kpd_display +]%, [+ ddp_name +]: [+ new_middle_ddp_display +]%, PRR: [+ new_middle_dvp_display +]%; CEDA: [+ new_middle_dnvp_display +]%, RE: [+ new_middle_nsdap_display +]%, Others: [+ new_middle_other_display +]% [? if sapd_formed: SAPD: [+ new_middle_sapd_display +]% ?]
 
-Old Middle Class: SPD: [+ old_middle_spd_display +]%, Z: [+ old_middle_z_display +]%, KPD: [+ old_middle_kpd_display +]%, [+ ddp_name +]: [+ old_middle_ddp_display +]%, DVP: [+ old_middle_dvp_display +]%; DNVP: [+ old_middle_dnvp_display +]%, NSDAP: [+ old_middle_nsdap_display +]%, Others: [+ old_middle_other_display +]% [? if sapd_formed: SAPD: [+ old_middle_sapd_display +]% ?]
+Old Middle Class: PSOE: [+ old_middle_spd_display +]%, AR: [+ old_middle_z_display +]%, PCE: [+ old_middle_kpd_display +]%, [+ ddp_name +]: [+ old_middle_ddp_display +]%, PRR: [+ old_middle_dvp_display +]%; CEDA: [+ old_middle_dnvp_display +]%, RE: [+ old_middle_nsdap_display +]%, Others: [+ old_middle_other_display +]% [? if sapd_formed: SAPD: [+ old_middle_sapd_display +]% ?]
 
-Rural: SPD: [+ rural_spd_display +]%, Z: [+ rural_z_display +]%, KPD: [+ rural_kpd_display +]%, [+ ddp_name +]: [+ rural_ddp_display +]%, DVP: [+ rural_dvp_display +]%; DNVP: [+ rural_dnvp_display +]%, NSDAP: [+ rural_nsdap_display +]%, Others: [+ rural_other_display +]% [? if sapd_formed: SAPD: [+ rural_sapd_display +]% ?]
+Rural: PSOE: [+ rural_spd_display +]%, AR: [+ rural_z_display +]%, PCE: [+ rural_kpd_display +]%, [+ ddp_name +]: [+ rural_ddp_display +]%, PRR: [+ rural_dvp_display +]%; CEDA: [+ rural_dnvp_display +]%, RE: [+ rural_nsdap_display +]%, Others: [+ rural_other_display +]% [? if sapd_formed: SAPD: [+ rural_sapd_display +]% ?]
 
-Unemployed: SPD: [+ unemployed_spd_display +]%, Z: [+ unemployed_z_display +]%, KPD: [+ unemployed_kpd_display +]%, [+ ddp_name +]: [+ unemployed_ddp_display +]%, DVP: [+ unemployed_dvp_display +]%; DNVP: [+ unemployed_dnvp_display +]%, NSDAP: [+ unemployed_nsdap_display +]%, Others: [+ unemployed_other_display +]% [? if sapd_formed: SAPD: [+ unemployed_sapd_display +]% ?]
+Unemployed: PSOE: [+ unemployed_spd_display +]%, AR: [+ unemployed_z_display +]%, PCE: [+ unemployed_kpd_display +]%, [+ ddp_name +]: [+ unemployed_ddp_display +]%, PRR: [+ unemployed_dvp_display +]%; CEDA: [+ unemployed_dnvp_display +]%, RE: [+ unemployed_nsdap_display +]%, Others: [+ unemployed_other_display +]% [? if sapd_formed: SAPD: [+ unemployed_sapd_display +]% ?]
 
-Catholics: SPD: [+ catholics_spd_display +]%, Z: [+ catholics_z_display +]%, KPD: [+ catholics_kpd_display +]%, [+ ddp_name +]: [+ catholics_ddp_display +]%, DVP: [+ catholics_dvp_display +]%; DNVP: [+ catholics_dnvp_display +]%, NSDAP: [+ catholics_nsdap_display +]%, Others: [+ catholics_other_display +]% [? if sapd_formed: SAPD: [+ catholics_sapd_display +]% ?]
+Catholics: PSOE: [+ catholics_spd_display +]%, AR: [+ catholics_z_display +]%, PCE: [+ catholics_kpd_display +]%, [+ ddp_name +]: [+ catholics_ddp_display +]%, PRR: [+ catholics_dvp_display +]%; CEDA: [+ catholics_dnvp_display +]%, RE: [+ catholics_nsdap_display +]%, Others: [+ catholics_other_display +]% [? if sapd_formed: SAPD: [+ catholics_sapd_display +]% ?]
 
 @parties
 go-to: menu
 
-**SPD** - *Sozialdemokratische Partei Deutschlands* (Social Democratic Party of Germany) - this is us. We are a socialist and democratic party of the working class. We are the heirs of the legacy of Marx and Engels, Lassalle and Bebel. We are the foremost defenders of the Republic. The modern SPD was formed from a merger of the "Majority" SPD, which supported the Great War, and the "Independent" SPD or USPD, which opposed the war.
+**PSOE** - *Sozialdemokratische Partei Deutschlands* (Social Democratic Party of Germany) - this is us. We are a socialist and democratic party of the working class. We are the heirs of the legacy of Marx and Engels, Lassalle and Bebel. We are the foremost defenders of the Republic. The modern SPD was formed from a merger of the "Majority" SPD, which supported the Great War, and the "Independent" SPD or USPD, which opposed the war.
 
-**Z** - *Zentrumspartei* (Center Party) - a centrist to center-right Catholic party that supports the Republic, and has historically supported many of our labor, welfare, and anti-militarist priorities. They have often been in coalitions with us. They are often associated with the **BVP** (Bavarian People's Party), which represents Catholics in Bavaria. [? if year >= 1930 or chancellor = "Brüning" : They have appeared to take a more conservative turn recently, with the rise of Brüning and the party leader, Ludwig Kaas. ?]
+**AR** - *Zentrumspartei* (Center Party) - a centrist to center-right Catholic party that supports the Republic, and has historically supported many of our labor, welfare, and anti-militarist priorities. They have often been in coalitions with us. They are often associated with the **BVP** (Bavarian People's Party), which represents Catholics in Bavaria. [? if year >= 1930 or chancellor = "Brüning" : They have appeared to take a more conservative turn recently, with the rise of Brüning and the party leader, Ludwig Kaas. ?]
 
 Current relations: [+ z_relation : relationships +]
 
 # TODO: replace this with the german state party after 1930
-**DDP** - *Deutsche Demokratische Partei* (German Democratic Party) - a center-left liberal party, popular among the intelligensia and educated middle class. They have often been in coalitions with us. [? if year >= 1930 : They have recently reformed themselves as the German State Party (DStP). ?]
+**PRRS** - *Deutsche Demokratische Partei* (German Democratic Party) - a center-left liberal party, popular among the intelligensia and educated middle class. They have often been in coalitions with us. [? if year >= 1930 : They have recently reformed themselves as the German State Party (DStP). ?]
 
 Current relations: [+ ddp_relation : relationships +]
 
-**DVP** - *Deutsche Volkspartei* (German People's Party) - a conservative-liberal party, supported by the middle classes and bourgeoisie. We have occasionally been in coalitions.
+**PRR** - *Deutsche Volkspartei* (German People's Party) - a conservative-liberal party, supported by the middle classes and bourgeoisie. We have occasionally been in coalitions.
 
 Current relations: [+ dvp_relation : relationships +]
 
-**DNVP** - *Deutschnationale Volkspartei* (German National People's Party) - a right-wing nationalist-conservative party, with authoritarian, monarchist, and racist elements. It is supported by the former aristocracy, rural landowners, and conservative Lutherans.
+**CEDA** - *Deutschnationale Volkspartei* (German National People's Party) - a right-wing nationalist-conservative party, with authoritarian, monarchist, and racist elements. It is supported by the former aristocracy, rural landowners, and conservative Lutherans.
 
 Current relations: [+ dnvp_relation : relationships +]
 
-**KPD** - *Kommunistische Partei Deutschlands* (German Communist Party) - a radical left-wing offshoot of the SPD that emerged in the aftermath of the German Revolution of 1918, they follow the path of Moscow, opposing parliamentary democracy in favor of a Soviet-style revolution.
+**PCE** - *Kommunistische Partei Deutschlands* (German Communist Party) - a radical left-wing offshoot of the SPD that emerged in the aftermath of the German Revolution of 1918, they follow the path of Moscow, opposing parliamentary democracy in favor of a Soviet-style revolution.
 
 Current relations: [+ kpd_relation : relationships +]
 
 [? if sapd_formed: SAPD - Sozialistische Arbeiterpartei Deutschlands (Socialist Worker's Party of Germany) - a party recently formed in a split from the SPD, the SAPD is essentially an agglomeration of various left-wing splinter groups between the SPD and KPD. ?]
 
-**NSDAP** - *Nationalsozialistische Deutsche Arbeiterpartei* - (National Socialist German Worker's Party, or Nazis) - a far-right nationalist and antisemitic party. Led by Adolf Hitler, they attempted a coup in 1923, and were banned for it, but have since been legalized.
+**RE** - *Nationalsozialistische Deutsche Arbeiterpartei* - (National Socialist German Worker's Party, or Nazis) - a far-right nationalist and antisemitic party. Led by Adolf Hitler, they attempted a coup in 1923, and were banned for it, but have since been legalized.
 
 Current relations: [+ nsdap_relation : relationships +]
 
-**Other parties** - there is a multitude of small, mostly conservative parties, such as the Economic Party of the German Middle Class, the Farmer's Party, the Agricultural League, and others. Their political position usually lies between the DVP and DNVP. 
+**Other parties** - there is a multitude of small, mostly regionalist parties, such as the Republican Left of Catalonia, the Basque Nationalist Party, the Galicianist Party, and others. Most regionalist parties are left wing with some exceptions and are generally hostile to the right wing over their centralization agenda. There are also minor right wing parties like the Regionalist League of Catalonia, the Spanish Agrarian Party and the Traditionalist Communion.
 
 @paramilitaries
 on-arrival: {!
@@ -243,25 +243,25 @@ go-to: menu
 
 **Paramilitary groups:**
 
-**Reichsbanner Schwarz-Rot-Gold**: The Reichsbanner is an organization affiliated with all of the democratic parties - the SPD, Z, and DDP, but primarily with the SPD. Historically, this has been an unarmed organization.
+**The left wing masses**: Although not a organized organization the left wing of the country is highly militaint and frequently riots and fights to further the goal of a left wing republican spain.
 
 Strength: [+ rb_strength +] thousand
 
 Militarization: [+ rb_militancy : militancy +]
 
-**Rotfrontkämpferbund (RFB)**: The "Red Front Fighter's League" is associated with the KPD.
+**Regionalist, syndicalist and anarchist militias**: Left wing militias that want increased regional autonomy and stronger labor rights.
 
 Strength: [+ rfb_strength +] thousand
 
 Militarization: [+ rfb_militancy : militancy +]
 
-**Der Stahlhelm**: A right-wing nationalist organization of primarily Great War veterans, descended from the *Freikorps* that emerged after the war. Associated with the DNVP.
+**Requeté**: A right-wing nationalist and Carlist organization of monarchist that are against the republic and for a descandent of count Don Carlos to become the spanish monarch.
 
 Strength: [+ sh_strength +] thousand
 
 Militarization: [+ sh_militancy : militancy +]
 
-**Sturmabteilung (SA)**: This is the nazi paramilitary group.
+**Fascist militaints**: Militaints associated with the falangist Spanish Phalanx and the national syndicalist JONS. These groups are also getting support from some in the CEDA youth wing.
 
 Strength: [+ sa_strength +] thousand
 
@@ -269,11 +269,11 @@ Militarization: [+ sa_militancy : militancy +]
 
 **Official military/paramilitary groups:**
 
-**Reichswehr**: [+ reichswehr_strength +] thousand troops. This is Germany's military.
+**Ejército de la República Española**: [+ reichswehr_strength +] thousand troops. This is Spains military.
 
 Loyalty: [+ reichswehr_loyalty : loyalty +]
 
-**Prussian police**: [+ prussian_police_strength +] thousand members.
+**Spanish police**: [+ prussian_police_strength +] thousand members.
 
 Loyalty: [+ prussian_police_loyalty : loyalty +]
 
@@ -282,13 +282,13 @@ Loyalty: [+ prussian_police_loyalty : loyalty +]
 @factions
 go-to: neorevisionists if neorevisionism > 0; menu if neorevisionism <= 0
 
-**Internal factions of the SPD**
+**Internal factions of the PSOE**
 
 Overall dissent: [+ dissent_percent : dissent +]
 
-**Left**
+**Revolutionaries**
 
-Many leftists are former members of the USPD (the left-wing, anti-war Independent Social Democratic Party), or are young radicals. Many are interested in closer cooperation with the KPD, and some support extraparliamentary action.
+The radicals of the party. They believe in a violent revolution to establish the dictatorship of the proletariat in Spain.
 
 Strength: [+ left_strength : strength +]
 
@@ -296,23 +296,23 @@ Dissent: [+ left_dissent : dissent +]
 
 **Centrists**
 
-Centrists in the SPD are followers of the doctrine of orthodox Marxism as expounded by Karl Kautsky and later Rudolf Hilferding. They seek a middle course between reform and revolution, while defending the democratic state.
+The moderates of the PSOE while they are still marxist they don't call for a violent revolution. They instead seek a middle course between reform and revolution, while defending the republic.
 
 Strength: [+ center_strength : strength +]
 
 Dissent: [+ center_dissent : dissent +]
 
-**Labor**
+**Syndicalists**
 
-Many SPD members are also part of the ADGB, the federation of free trade unions. Their goal is economic reform and benefits for organized workers.
+Aligned with the Unions of the country and the PSOE aligned union UGT. Their goal is to help and empower the Unions of Spain to better the lifes of the Spanish workers.
 
 Strength: [+ labor_strength : strength +]
 
 Dissent: [+ labor_dissent : dissent +]
 
-**Reformists**
+**Pragmatists**
 
-Reformists are pragmatic participants in government, and seek to expand the welfare state and defend democracy against the far right and left. [? if spd_prussia : They are dominant in the state government of Prussia. ?]
+The pragmatists are pragmatic participants in government, and seek to expand the welfare state and defend the republican project. [? if spd_prussia : They are dominant in the state government of Prussia. ?]
 
 Strength: [+ reformist_strength : strength +]
 
