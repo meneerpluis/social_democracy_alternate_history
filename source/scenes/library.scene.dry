@@ -111,7 +111,7 @@ Justice: [+ justice_minister_party +]
 
 Foreign: [+ foreign_minister_party +]
 
-Reichswehr: [+ reichswehr_minister_party +]
+Ejército de la República Española: [+ reichswehr_minister_party +]
 
 Agriculture: [+ agriculture_minister_party +]
 
