@@ -1,13 +1,13 @@
-title: Rudolf Wissell
+title: Trifón Gómez
 is-pinned-card: true
 tags: advisor, labor
 card-image: img/portraits/WissellRudolf.jpg
 view-if: wissell_advisor = 1
 new-page: true 
 
-= Rudolf Wissell
+= Trifón Gómez
 
-Wissell is a labor economist working for the ADGB, the federation of free trade unions, and has been a labor minister on multiple occasions. His priority is to improve conditions for organized workers.
+Gómez is a labor economist working for the ADGB, the federation of free trade unions, and has been a labor minister on multiple occasions. His priority is to improve conditions for organized workers.
 
 - @labor_rights_
 - @union_unity
