@@ -6,7 +6,7 @@ go-to: post_event if started = 1; start_menu if started = 0
 new-page: true
 go-to: start_menu_2
 
-= Social Democracy: An Alternate History
+= The Second Republic: An Alternate History
 
 @start_menu_2
 
@@ -21,7 +21,7 @@ on-arrival: {!
 Q.started = 1;
 // time elapsed (in months)
 Q.time = 1;
-Q.year = 1928;
+Q.year = 1930;
 Q.month = 1;
 // how many actions have been taken this month?
 Q.month_actions = 0;
