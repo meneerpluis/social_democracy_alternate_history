@@ -1,4 +1,4 @@
-title: Rudolf Hilferding
+title: Matilde de la Torre
 is-pinned-card: true
 tags: advisor, centrist
 card-image: img/portraits/HilferdingRudolf.jpg
@@ -6,9 +6,9 @@ view-if: hilferding_advisor = 1
 new-page: true
 #face-image: img/portraits/HilferdingRudolf.jpg
 
-= Rudolf Hilferding
+= Matilde de la Torre
 
-Hilferding is an economist and a disciple of Karl Kautsky. Originating from Vienna, Austria, he trained as a medical doctor, but later became involved in Marxist economics as a discipline. He has been the lead ideologist of our party since the Heidelberg Program of 1925.
+De la Torre is an economist and a disciple of Karl Kautsky. Originating from Vienna, Austria, he trained as a medical doctor, but later became involved in Marxist economics as a discipline. He has been the lead ideologist of our party since the Heidelberg Program of 1925.
 
 - @against_right_and_left
 - @toleration
