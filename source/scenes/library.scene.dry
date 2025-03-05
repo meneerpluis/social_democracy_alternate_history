@@ -70,24 +70,24 @@ Chancellor: [+ chancellor +] ([+ chancellor_party +])
 Reichstag composition:
 
 # 1928: 30, 1930: 25, 1932: 22
-SPD: [+ spd_r +]%
+PSOE: [+ spd_r +]%
 [? if sapd_formed and sapd_r > 0: SAPD: [+ sapd_r +]% ?]
 # 1928: 15, 1930: 15, 1932: 
-Z + BVP: [+ z_r +]%
+AR: [+ z_r +]%
 # 1928: 10, 1930: 13
-KPD: [+ kpd_r +]%
+PCE: [+ kpd_r +]%
 # 1928: 5, 1930: 4 (as DstP)
 [+ ddp_name +]: [+ ddp_r +]%
 # 1928: 9, 1930: 5
-DVP: [+ dvp_r +]%
+PRR: [+ dvp_r +]%
 # 1928: 14, 1930: 7
-DNVP: [+ dnvp_r +]%
+CEDA: [+ dnvp_r +]%
 # 1928: 3, 1930: 18
-NSDAP: [+ nsdap_r +]%
+RE: [+ nsdap_r +]%
 # 1928: 9, 1930: 10
 Others: [+ other_r +]%
 
-SPD position: [? if spd_toleration : toleration ?][? if spd_in_government : in government - ?][? if spd_toleration == 0 and spd_in_government == 0 and spd_caretaker == 0 : opposition ?][? if spd_caretaker : caretaker government ?]
+PSOE position: [? if spd_toleration : toleration ?][? if spd_in_government : in government - ?][? if spd_toleration == 0 and spd_in_government == 0 and spd_caretaker == 0 : opposition ?][? if spd_caretaker : caretaker government ?]
 [? if in_weimar_coalition and spd_in_government: Weimar Coalition ?][? if in_grand_coalition and spd_in_government: Grand Coalition ?][? if in_popular_front and spd_in_government: Popular Front ?][? if in_left_front and spd_in_government: Left Front ?][? if in_spd_majority and spd_in_government: SPD majority ?][? if in_minority_government and spd_in_government: minority government ?][? if in_emergency_government and spd_in_government: emergency government ?]
 
 [? if spd_in_government and not in_spd_majority and not in_left_front : Coalition dissent: [+ coalition_dissent : coalition_dissent +] ?]
@@ -338,7 +338,7 @@ data = [
     {
         "id": "kpd",
         "legend": "KPD",
-        "name": "KPD",
+        "name": "PCE",
         "seats": Q.kpd_r*5,
     }];
 if (Q.sapd_formed && Q.sapd_r) {
@@ -353,31 +353,25 @@ data = data.concat([
     {
         "id": "spd",
         "legend": "SPD",
-        "name": "SPD",
+        "name": "PSOE",
         "seats": Q.spd_r*5,
     },
     {
         "id": "ddp",
         "legend": "DDP",
-        "name": "DDP",
+        "name": "PRSS",
         "seats": Q.ddp_r*5,
     },
     {
         "id": "z",
         "legend": "Center",
-        "name": "Center",
-        "seats": (Q.z_r - 3)*5,
-    },
-    {
-        "id": "bvp",
-        "legend": "BVP",
-        "name": "BVP",
-        "seats": 3*5,
+        "name": "AR",
+        "seats": Q.z_r*5,
     },
     {
         "id": "dvp",
         "legend": "DVP",
-        "name": "DVP",
+        "name": "PRR",
         "seats": Q.dvp_r*5,
     },
     {
@@ -389,13 +383,13 @@ data = data.concat([
     {
         "id": "dnvp",
         "legend": "DNVP",
-        "name": "DNVP",
+        "name": "CEDA",
         "seats": Q.dnvp_r*5,
     },
     {
         "id": "nsdap",
         "legend": "NSDAP",
-        "name": "NSDAP",
+        "name": "RE",
         "seats": Q.nsdap_r*5,
     },
 ]);
