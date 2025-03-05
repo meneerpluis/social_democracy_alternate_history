@@ -1,13 +1,13 @@
-title: Gustav Radbruch
+title: Fernando de los Ríos
 is-pinned-card: true
 tags: advisor
 card-image: img/portraits/RadbruchGustav.jpg
 view-if: radbruch_advisor = 1
 new-page: true 
 
-= Gustav Radbruch
+= Fernando de los Ríos
 
-Gustav Radbruch is a renowned legal scholar and long-time SPD justice minister.
+Fernando de los Ríos is a renowned legal scholar and long-time SPD justice minister.
 
 
 - @judiciary_
