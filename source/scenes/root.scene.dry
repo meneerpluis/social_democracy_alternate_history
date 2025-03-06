@@ -318,7 +318,7 @@ Q.sapd_r = 0;
 Q.old_sapd_r = 0;
 
 // for changing the DDP's name to the DStP
-Q.ddp_name = "DDP";
+Q.ddp_name = "PRSS";
 
 // array of objects of the form {date: Date(), spd: 10, kpd: 12, ...} for each election
 Q.election_records = [];
@@ -533,12 +533,12 @@ Q.march_on_berlin_timer = 0;
 
 
 // all the initial advisors are centrists.
-Q.wels_advisor = 1; // Otto Wels
-Q.muller_advisor = 1; // Hermann Müller
+Q.wels_advisor = 1; // Juan Simeón Vidarte
+Q.muller_advisor = 1; // Andrés Saborit
 Q.muller_dead = 0;
 // okay I know Arthur Crispien was a leader irl but i couldn't find much interesting about him...
 Q.crispien_advisor = 0; // Arthur Crispien
-Q.hilferding_advisor = 1; // Rudolf Hilferding
+Q.hilferding_advisor = 1; // Matilde de la Torre
 
 // left advisors
 Q.sender_advisor = 0; // Toni Sender
@@ -623,10 +623,10 @@ audio: shuffle music/A_las_barricadas_(Instrumental).ogg
 new-page: true
 go-to: main if difficulty >= 0; main.main_easy if difficulty < 0
 
-= 1928
+= 1931
 
-It is a bright time for German democracy. After a period of struggle, inflation is finally under control, and the economy is expanding steadily. In foreign policy, we have reached agreements with the Western powers and the Soviet Union that might make genuine peace a reality. 
+It is a hopefull time for Spanish democracy. After a period of struggle and economic downturn, Primo de Rivera has finally resigned. 
 
-Now, the task of Social Democracy is to prepare for the next election. The bourgeois-right government of Wilhelm Marx is unpopular, and we stand to gain. Perhaps the next government will have a socialist majority.
+Now, the task of Social Democracy is to prepare for the first election since the end of the dictatorship. The monarchy after their support for the dictorship is unpopular, and we and our republican allies stand to win. Perhaps the next government will succeed in creating a truly democratic and just society.
 
 
